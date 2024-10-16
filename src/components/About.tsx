@@ -93,7 +93,7 @@ const About = () => {
                     size="sm"
                     color="#64ffda"
                   >
-                    DOWNLOAD
+                    DOWNLOAD RESUME
                   </Button>
                 </a>
               </div>
