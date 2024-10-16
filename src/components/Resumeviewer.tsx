@@ -14,6 +14,8 @@ import {
 } from "@mantine/core";
 
 const Resumeviewer = (props: any) => {
+  const resumeUrl = new URL("/Resume.pdf", window.location.origin).href;
+
   return (
     <Modal.Root
       scrollAreaComponent={ScrollArea.Autosize}
@@ -30,7 +32,7 @@ const Resumeviewer = (props: any) => {
             data-autoFocus
           >
             RESUME
-            <a href="/Resume.pdf" download={Info.name}>
+            <a href={resumeUrl} download={Info.name}>
               <Button size={"xs"} color="#64FFDA" variant={"outline"}>
                 DOWNLOAD
               </Button>
@@ -39,7 +41,7 @@ const Resumeviewer = (props: any) => {
           <Modal.CloseButton size={"xl"} className="!text-red-500" />
         </Modal.Header>
         <Modal.Body className="!bg-bgcolor border-2 border-primaryColor !rounded-br-2xl !rounded-bl-2xl !border-t-0">
-          <Document file="/Resume.pdf">
+          <Document file={resumeUrl}>
             <Page
               pageNumber={1}
               renderTextLayer={false}
