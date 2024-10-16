@@ -30,7 +30,7 @@ const Resumeviewer = (props: any) => {
             data-autoFocus
           >
             RESUME
-            <a href="/RESUME.pdf" download={Info.name}>
+            <a href="/Resume.pdf" download={Info.name}>
               <Button size={"xs"} color="#64FFDA" variant={"outline"}>
                 DOWNLOAD
               </Button>
