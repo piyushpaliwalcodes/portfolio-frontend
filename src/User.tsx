@@ -1,5 +1,5 @@
 const Info = {
-  name: "HOTEL BOOKING APPLICATION",
+  name: "PIYUSH PALIWAL",
   stack: ["Software Engineer", "Full Stack Web Developer", "Free Lancer"],
   bio: "I am a passionate Software Engineer with a strong background in competitive programming, free lancing, and web development.",
 };
