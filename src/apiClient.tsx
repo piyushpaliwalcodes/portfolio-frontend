@@ -1,3 +1,4 @@
+
 export type QueryData = {
   name: string;
   email: string;
@@ -5,8 +6,9 @@ export type QueryData = {
   description: string;
 };
 
+
 const sendQueryForm = async (data: QueryData) => {
-  const response = await fetch(`http://localhost:5000/api/query/`, {
+  const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/query/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -18,7 +20,7 @@ const sendQueryForm = async (data: QueryData) => {
     console.log("ERROR AT API CLIENT");
     throw new Error("ERRROR AT API CLIENT");
   }
-  
+
   return response.json();
 };
 
