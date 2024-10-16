@@ -39,7 +39,7 @@ const Resumeviewer = (props: any) => {
           <Modal.CloseButton size={"xl"} className="!text-red-500" />
         </Modal.Header>
         <Modal.Body className="!bg-bgcolor border-2 border-primaryColor !rounded-br-2xl !rounded-bl-2xl !border-t-0">
-          <Document file="RESUME.pdf">
+          <Document file="Resume.pdf">
             <Page
               pageNumber={1}
               renderTextLayer={false}
