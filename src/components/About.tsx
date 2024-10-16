@@ -86,7 +86,7 @@ const About = () => {
                 >
                   CHECK RESUME
                 </Button>
-                <a href="/RESUME.pdf" download={Info.name}>
+                <a href="/Resume.pdf" download={Info.name}>
                   <Button
                     variant={"outline"}
                     className="!text-white rounded-md p-2  !w-fit "
