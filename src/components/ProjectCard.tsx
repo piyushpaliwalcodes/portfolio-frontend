@@ -16,6 +16,8 @@ interface ProjectCardProps {
   live?: boolean;
   technologies: string[];
   desc: string;
+  link:string;
+  sourcecode:string
 }
 const ProjectCard = (props: ProjectCardProps) => {
   const [opened, { open, close }] = useDisclosure(false);
@@ -98,6 +100,9 @@ const ProjectCard = (props: ProjectCardProps) => {
         desc={props.desc}
         live={props.live}
         technologies={props.technologies}
+        link = {props.link}
+        sourcecode={props.sourcecode}
+
       />
     </div>
   );

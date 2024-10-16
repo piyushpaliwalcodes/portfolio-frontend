@@ -64,12 +64,12 @@ const FullProjectModel = (props: any) => {
           </Group>
           <Group className="buttoncontainer flex justify-around">
             <Badge w="45%" className="hover:cursor-pointer" variant={"outline"}>
-              <a target={"_blank"} href="https://www.linkedin.com/feed/">
+              <a target={"_blank"} href={props.sourcecode}>
                 Source Code
               </a>
             </Badge>
             <Badge className="!bg-primaryColor hover:cursor-pointer" w="45%">
-              <a target={"_blank"} href="">
+              <a target={"_blank"} href={props.link}>
                 View Live Site
               </a>
             </Badge>

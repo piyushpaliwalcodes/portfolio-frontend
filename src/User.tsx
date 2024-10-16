@@ -28,8 +28,7 @@ It’s been an incredible learning experience, from setting up user authenticati
       "JWT Authentication",
     ],
     link: "https://hotel-booking-frontend-5skw.onrender.com",
-    github:
-      "https://github.com/piyushpaliwalcodes?tab=overview&from=2024-09-01&to=2024-09-30",
+    github: "https://github.com/piyushpaliwalcodes/hotel-booking-frontend.git",
   },
   {
     title: "Food Delivery Application",

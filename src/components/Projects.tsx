@@ -16,6 +16,8 @@ function Projects() {
               desc={project.desc}
               live={project.live}
               technologies={project.technologies}
+              link={project.link}
+              sourcecode = {project.github}
             />
           );
         })}
