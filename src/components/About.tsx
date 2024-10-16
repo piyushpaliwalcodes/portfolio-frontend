@@ -78,14 +78,14 @@ const About = () => {
                 {Info.bio}
               </div>
               <div className="buttoncontainer flex gap-4">
-                <Button
+                {/* <Button
                   className="!text-bgcolor rounded-md p-2  !w-fit "
                   size="sm"
                   color="#64ffda"
                   onClick={open}
                 >
                   CHECK RESUME
-                </Button>
+                </Button> */}
                 <a href="/Resume.pdf" download={Info.name}>
                   <Button
                     variant={"outline"}

@@ -34,7 +34,7 @@ const Resumeviewer = (props: any) => {
             RESUME
             <a href={resumeUrl} download={Info.name}>
               <Button size={"xs"} color="#64FFDA" variant={"outline"}>
-                DOWNLOAD
+                RESUME
               </Button>
             </a>
           </Modal.Title>
