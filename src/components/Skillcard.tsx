@@ -29,12 +29,12 @@ const Skillbadge = (props: any) => {
 const Skillcard = (props: any) => {
   return (
     <div
-      className="w-[45%] border border-primaryColor p-2 rounded-lg shadow-md shadow-primaryColor "
+      className="w-[45%] border border-primaryColor p-3 rounded-lg shadow-md shadow-primaryColor "
       data-aos="fade-up"
       data-aos-duration="400"
     >
       <div className="text-center font-bold text-white pb-2">{props.title}</div>
-      <div className="flex flex-wrap flex-row !text-textColor ">
+      <div className="flex flex-wrap flex-col !text-textColor gap-2 ">
         <Skillbadge skills={props.skills} />
       </div>
     </div>
